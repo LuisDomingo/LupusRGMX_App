@@ -10,6 +10,7 @@
 
 ## Fuentes
 
+# https://docs.posit.co/connect-cloud/how-to/r/dependencies.html
 # <https://rstudio.github.io/bslib/articles/theming/index.html>
 #  <https://bootswatch.com/>
 #  <https://rstudio.github.io/shinythemes/>
@@ -25,6 +26,7 @@ library(viridis)
 library(bnlearn)
 library(sf)
 library(utils)
+library(wordcloud2)
 
 # Definir colores personalizados (requiere CSS adicional)
 customCSS <- tags$head(
