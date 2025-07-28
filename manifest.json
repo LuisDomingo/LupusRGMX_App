@@ -1676,6 +1676,34 @@
         "Built": "R 4.5.0; x86_64-pc-linux-gnu; 2025-04-14 20:53:42 UTC; unix"
       }
     },
+    "htmlwidgets": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Type": "Package",
+        "Package": "htmlwidgets",
+        "Title": "HTML Widgets for R",
+        "Version": "1.6.4",
+        "Authors@R": "c(\n    person(\"Ramnath\", \"Vaidyanathan\", role = c(\"aut\", \"cph\")),\n    person(\"Yihui\", \"Xie\", role = \"aut\"),\n    person(\"JJ\", \"Allaire\", role = \"aut\"),\n    person(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"aut\"),\n    person(\"Carson\", \"Sievert\", , \"carson@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-4958-2844\")),\n    person(\"Kenton\", \"Russell\", role = c(\"aut\", \"cph\")),\n    person(\"Ellis\", \"Hughes\", role = \"ctb\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "A framework for creating HTML widgets that render in various\n    contexts including the R console, 'R Markdown' documents, and 'Shiny'\n    web applications.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/ramnathv/htmlwidgets",
+        "BugReports": "https://github.com/ramnathv/htmlwidgets/issues",
+        "Imports": "grDevices, htmltools (>= 0.5.7), jsonlite (>= 0.9.16), knitr\n(>= 1.8), rmarkdown, yaml",
+        "Suggests": "testthat",
+        "Enhances": "shiny (>= 1.1)",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3",
+        "NeedsCompilation": "no",
+        "Packaged": "2023-12-06 00:11:16 UTC; cpsievert",
+        "Author": "Ramnath Vaidyanathan [aut, cph],\n  Yihui Xie [aut],\n  JJ Allaire [aut],\n  Joe Cheng [aut],\n  Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\n  Kenton Russell [aut, cph],\n  Ellis Hughes [ctb],\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Carson Sievert <carson@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-12-06 06:00:06 UTC",
+        "Built": "R 4.5.0; ; 2025-05-17 12:08:05 UTC; unix"
+      }
+    },
     "httpuv": {
       "Source": "CRAN",
       "Repository": "https://cloud.r-project.org",
@@ -3766,6 +3794,34 @@
         "Built": "R 4.5.1; x86_64-pc-linux-gnu; 2025-06-18 00:34:24 UTC; unix"
       }
     },
+    "wordcloud2": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "wordcloud2",
+        "Type": "Package",
+        "Title": "Create Word Cloud by 'htmlwidget'",
+        "Version": "0.2.1",
+        "Author": "Dawei Lang[aut, cre], Guan-tin Chien[aut, author for 'wordcloud2.js']",
+        "Description": "A fast visualization tool for creating wordcloud\n    by using 'wordcloud2.js'. 'wordcloud2.js' is a JavaScript library to create \n    wordle presentation on 2D canvas or HTML <https://timdream.org/wordcloud2.js/>.",
+        "License": "GPL-2",
+        "Depends": "R (>= 3.1.0)",
+        "LazyData": "TRUE",
+        "VignetteBuilder": "knitr",
+        "Imports": "htmlwidgets, base64enc, grDevices, graphics",
+        "Suggests": "knitr, rmarkdown, webshot",
+        "Enhances": "shiny (>= 0.12)",
+        "URL": "https://github.com/lchiffon/wordcloud2",
+        "BugReports": "https://github.com/lchiffon/wordcloud2/issues",
+        "Maintainer": "Dawei Lang <chiffonlang@icloud.com>",
+        "RoxygenNote": "5.0.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2018-01-03 14:49:34 UTC; chiffon",
+        "Repository": "CRAN",
+        "Date/Publication": "2018-01-03 15:20:37 UTC",
+        "Built": "R 4.5.1; ; 2025-06-26 05:00:17 UTC; unix"
+      }
+    },
     "xfun": {
       "Source": "CRAN",
       "Repository": "https://cloud.r-project.org",
@@ -3876,7 +3932,7 @@
   },
   "files": {
     "app.R": {
-      "checksum": "d184ad6698cd94c965e00eea89d7de27"
+      "checksum": "6b409d9e26735ce588274d1af007c029"
     }
   },
   "users": null
