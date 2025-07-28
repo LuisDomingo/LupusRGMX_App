@@ -1,6 +1,8 @@
 {
   "name": "LupusRGMX_App",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Aplicación Shiny para análisis de Lupus",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": null,
+  "dependencies": {}
 }
